@@ -1,0 +1,79 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Monserrat', Arial, sans-serif;
+	margin: auto;
+	background-color: #0073c7e0;
+	color: #fff;
+}
+h1 {
+    margin: 15px 0 0 0;
+}
+h2 {
+	font-size: 18px;
+    font-weight: 400;
+    margin: 15px 0 30px 0;
+}
+.cup {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 150px;
+    height: 330px;
+    color: #0351d6fc;
+    background-color: #fff;
+    border: solid 4px #0049c3fc;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin: 10px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.container-cups {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 280px;
+}
+.cup.cup-small {
+	width: 50px;
+    height: 95px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+.full {
+	background-color: #00aaff;
+	color: #fff;
+}
+
+
+.cup-text {
+	position: absolute;
+	top: 45%;
+	text-align: center;
+}
+#liters {
+	font-weight: bold;
+	color: #0050da;
+    font-size: 18px;
+}
+.test:nth-of-type(2) {
+	font-size: 14px;
+}
+
+.fill{
+	position: absolute;
+	bottom: 0;
+	height: 0%;
+	width: 100%;
+}
+.rempli{
+	background-color: blue;
+}
